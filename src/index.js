@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Avatar from './Avatar';
+import styles from './Whatapp.module.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+class Layout extends React.Component {
+  render()
+  {
+    return <div className={styles.container}>
+      <div className={styles.green}></div>
+        <div className={styles.grey}>
+        <div className={styles.white}>
+        <Avatar /></div>             
+        
+          </div>
+        </div>
+       
+      
+     
+     
+  }
+ 
+}
+ReactDOM.render(<Layout/>,document.getElementById('root'));

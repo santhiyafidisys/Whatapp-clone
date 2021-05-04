@@ -1,0 +1,43 @@
+
+.green{
+    
+    background-color: rgb(0, 128, 117);
+    width: auto;
+    height: 80px;
+}
+.grey{
+    border: 1px solid antiquewhite;
+    background-color: rgb(223, 231, 231);
+    width: auto;
+    padding: 0 75px 30px 75px;
+}
+.white{
+  
+    background-color: whitesmoke;
+   
+    margin-top: -50px;
+    height: 500px;
+}
+.dp{
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+h5{
+    font-size: 16px;
+
+}
+.row{
+    width: 300px;
+    border: 3px solid wheat;
+}
+.image{
+    width: 42px;
+    border-radius: 30px;
+    height: 42px;
+}
+.text{
+    padding: 20px;
+}
