@@ -11,11 +11,11 @@ class Avatar extends React.Component{
                 <img className={styles.image} src="dp1.png" alt="dp1.png"/>
                 <div className={styles.text}>
                 <h5>Cool Kids</h5>
-            <h6>whatapp web template free downloads</h6>
+            <h6>whatsapp web template free downloads</h6>
 
                 </div>
                 <div className={styles.time}>
-                    <h5>8:51</h5>
+                    <h5>8:51 am</h5>
                 </div>
             
             </div>
