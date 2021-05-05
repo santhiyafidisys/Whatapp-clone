@@ -26,18 +26,20 @@
 }
 
 h5{
+	padding: 0;
     font-size: 16px;
 
 }
 .row{
     width: 300px;
-    border: 3px solid wheat;
+  
 }
 .image{
-    width: 42px;
+		width: 42px;
     border-radius: 30px;
     height: 42px;
 }
 .text{
+	padding: 0;
     padding: 20px;
 }
