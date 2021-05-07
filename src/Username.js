@@ -6,9 +6,11 @@ import styles from './Whatapp.module.css';
 class Names extends React.Component{
   render()
     {
-      return <div className={styles.text}>
-        <h5>{this.props.name}</h5>
+      return (
+        <div>
+          <h4 className={styles.textdel}>{this.props.name}</h4>
 				</div>
+      )
 		}
 }
 export default Names;
