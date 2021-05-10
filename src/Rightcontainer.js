@@ -21,8 +21,6 @@ class Rightmenu extends React.Component{
 						 <Names name="cool kids"/>
 						 <Textboxmsg textmsg="whatApp Web Template Free Download"/>
 						 </div>
-						 
-						 
 						<div className={styles.menuright}>
 						<i class="fa fa-search"></i>
 						<i class="fa fa-paperclip"></i>	
