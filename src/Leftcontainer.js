@@ -10,10 +10,7 @@ class Leftmenu extends React.Component{
       {
         return (
 					<div className={styles.menu}>
-						
-						 <Avatar image="dp1.png"/>
-						 
-						 
+						 <Avatar image="dps8.png"/>
 						<div className={styles.menuright}>
 						<i class="fa fa-envelope"></i>	
 							<div>

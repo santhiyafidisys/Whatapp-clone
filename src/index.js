@@ -7,6 +7,7 @@ import Leftmenu from './Leftcontainer';
 import Rightmenu from './Rightcontainer';
 import Avatar from './Avatar';
 import Rightbox from './Rightchatbox';
+import Bottom from './Footer';
 
 
 class Layout extends React.Component {
@@ -32,6 +33,8 @@ class Layout extends React.Component {
               <Rightmenu />
               <div >
               <Rightbox background="whatsapp.png"/>
+              <Bottom />
+              
               
 
               </div>

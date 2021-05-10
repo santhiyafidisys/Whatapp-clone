@@ -6,21 +6,12 @@ import styles from './Whatapp.module.css';
 
 class Search extends React.Component{
     render(){
-			<div>
-			<a href="#"><i class="fa fa-search"></i></a> 
-			</div>
         return(
-			
-        <input 
-				className={styles.searchicon}
-				type="text"
-        placeholder="Suden oder neuen chat beginnen" 
-        name="search"/>
-			
+          <div className={styles.searchbox}>
+            <i class="fa fa-search"></i>
+            <input className={styles.searchicon} type="text" placeholder="Suden oder neuen chat beginnen" name=""></input>
+          </div>
 				)
-				
-					
-				
-    }
-}
+     }
+  }
 export default Search;

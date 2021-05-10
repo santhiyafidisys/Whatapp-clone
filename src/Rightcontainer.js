@@ -9,6 +9,7 @@ import Textboxmsg from './Textmsg';
 import Chatbox from './Chats';
 
 
+
 class Rightmenu extends React.Component{
     render()
       {
@@ -23,7 +24,8 @@ class Rightmenu extends React.Component{
 						 
 						 
 						<div className={styles.menuright}>
-						<i class="fa fa-envelope"></i>	
+						<i class="fa fa-search"></i>
+						<i class="fa fa-paperclip"></i>	
 							<div>
 							<div className={styles.leftside}></div>
 						<div className={styles.leftside}></div>
