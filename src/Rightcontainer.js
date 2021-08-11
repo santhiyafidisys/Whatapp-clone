@@ -7,37 +7,27 @@ import Times from './Timesdetails';
 import Names from './Username';
 import Textboxmsg from './Textmsg';
 import Chatbox from './Chats';
-
-
-
 class Rightmenu extends React.Component{
-    render()
-      {
-        return (
-					<div className={styles.menu}>
-						
-						 <Avatar image="dp1.png"/>
-						 <div className={styles.chatspace}>
-						 <Names name="cool kids"/>
-						 <Textboxmsg textmsg="whatApp Web Template Free Download"/>
-						 </div>
-						<div className={styles.menuright}>
-						<i class="fa fa-search"></i>
-						<i class="fa fa-paperclip"></i>	
-							<div>
-							<div className={styles.leftside}></div>
-						<div className={styles.leftside}></div>
-						<div className={styles.leftside}></div>
-
-							</div>
-						 
-							</div>
-
-						 </div>
-						
-						
-					
-				)
-          }
-      }
-      export default Rightmenu;
+  render()
+  {
+    return (
+			<div className={styles.menu}>
+				<Avatar image="dp1.png"/>
+				<div className={styles.chatspace}>
+				<Names name="cool kids"/>
+				<Textboxmsg textmsg="whatApp Web Template Free Download"/>
+			</div>
+			<div className={styles.menuright}>
+				<i class="fa fa-search"></i>
+				<i class="fa fa-paperclip"></i>	
+				<div>
+					<div className={styles.leftside}></div>
+					<div className={styles.leftside}></div>
+					<div className={styles.leftside}></div>
+				</div>
+			</div>
+			</div>
+		)
+	}
+}
+export default Rightmenu;
